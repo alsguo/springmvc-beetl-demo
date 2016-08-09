@@ -1,0 +1,14 @@
+<%
+// pageQuery
+
+%>
+<tr>
+	<th colspan="${pageQuery.pageNumber}}">
+		<div class="ui right floated pagination menu">
+		   <%for(var i=0;i<pageQuery.pageNumber;i++){%>
+		    <a  class="item">${i+1}</a>
+		   <%}%>
+		 
+		</div>
+	</th>
+</tr>
